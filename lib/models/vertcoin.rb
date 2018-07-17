@@ -4,15 +4,15 @@ module AtomicConnect
     include AtomicConnect
 
     #TODO: make helper method of some sort to decide which URI based on ENV
-    base_uri Rails.env.production? ? "" : "http://localhost:3001"
+    # base_uri Rails.env.production? ? "" : "http://localhost:3001"
+    base_uri 'http://104.131.67.67'
 
     # attr_reader :data, :errors
 
     def initialize
       @headers = {
-        "X-Token": "XXXX",
-        "Content-Type": "application/json",
-        "Test-Mode": Rails.env.production?.to_s
+        "X-Token": "cea35282-11ab-43d1-9ea0-537d83b79678",
+        "Content-Type": "application/json"
       }
     end
 
