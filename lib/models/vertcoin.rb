@@ -11,7 +11,7 @@ module AtomicConnect
 
     def initialize
       @headers = {
-        "X-Token": "cea35282-11ab-43d1-9ea0-537d83b79678",
+        "X-Token": ENV['X_TOKEN'],
         "Content-Type": "application/json"
       }
     end
