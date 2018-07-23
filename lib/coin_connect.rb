@@ -1,6 +1,6 @@
 require 'models/vertcoin.rb'
 
-module AtomicConnect
+module CoinConnect
   def post_call(path)
     resp = self.class.post(path, {headers: @headers, query: @query})
     handle_response(resp)
