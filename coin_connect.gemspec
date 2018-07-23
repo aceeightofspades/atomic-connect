@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'coin_connect'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.date        = '2018-06-27'
   s.summary     = "RESTful connection to Vertcoin RPC API"
   s.description = "This Gem allows easy, RESTful calls to the Vertcoin RPC API!"

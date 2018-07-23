@@ -5,7 +5,7 @@ module AtomicConnect
 
     #TODO: make helper method of some sort to decide which URI based on ENV
     # base_uri Rails.env.production? ? "" : "http://localhost:3001"
-    base_uri 'https://104.131.67.67'
+    base_uri 'https://vertpayer.vertbase.com'
 
     # attr_reader :data, :errors
 
