@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Matt Thompson"]
   s.email       = 'matt@vertbase.com'
   s.require_path = 'lib'
-  s.files       =  Dir['lib/atomic_connect.rb', 'lib/**/*']
+  s.files       =  Dir['lib/coin_connect.rb', 'lib/**/*']
   s.homepage    =
     'http://vertbase.com'
   s.license       = 'MIT'

@@ -1,7 +1,7 @@
-module AtomicConnect
+module CoinConnect
   class Vertcoin
     include HTTParty
-    include AtomicConnect
+    include CoinConnect
 
     #TODO: make helper method of some sort to decide which URI based on ENV
     # base_uri Rails.env.production? ? "" : "http://localhost:3001"
