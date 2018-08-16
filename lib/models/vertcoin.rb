@@ -4,8 +4,8 @@ module AtomicConnect
     include AtomicConnect
 
     #TODO: make helper method of some sort to decide which URI based on ENV
-    # base_uri Rails.env.production? ? "" : "http://localhost:3001"
-    base_uri 'https://atomicpay.com/api/v1'
+    base_uri (Rails.env.production? ? "https://atomicpay.com/api/v1" : "http://localhost:3001")
+    # base_uri 'https://atomicpay.com/api/v1'
 
     # attr_reader :data, :errors
 
